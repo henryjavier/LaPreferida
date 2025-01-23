@@ -1,5 +1,5 @@
 const url = "https://laprefe.netlify.app/"; // URL del código QR
-const logo = "https://i.ibb.co/0mRXFVv/logo.png"; // Ruta de tu logo
+const logo = "https://i.ibb.co/cXNt1wX/wilar-4.png"; // Ruta de tu logo
 
 // Genera el código QR con colores personalizados
 QRCode.toCanvas(document.getElementById('qrcode'), url, {
