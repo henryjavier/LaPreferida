@@ -19,7 +19,7 @@ QRCode.toCanvas(document.getElementById('qrcode'), url, {
         const ctx = canvas.getContext('2d');
         const img = new Image();
         img.onload = function() {
-            const logoSize = 180;  // Tamaño del logo
+            const logoSize = 200;  // Tamaño del logo
             const x = (canvas.width / 2) - (logoSize / 2);
             const y = (canvas.height / 2) - (logoSize / 2);
             ctx.drawImage(img, x, y, logoSize, logoSize); // Dibuja el logo
