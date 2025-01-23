@@ -1,5 +1,5 @@
 const url = "https://laprefe.netlify.app/"; // URL del código QR
-const logo = "https://i.ibb.co/cXNt1wX/wilar-4.png"; // Ruta de tu logo
+const logo = "https://subir-imagen.com/images/2025/01/23/wilar-3.png"; // Ruta de tu logo
 
 // Genera el código QR con colores personalizados
 QRCode.toCanvas(document.getElementById('qrcode'), url, {
@@ -19,7 +19,7 @@ QRCode.toCanvas(document.getElementById('qrcode'), url, {
         const ctx = canvas.getContext('2d');
         const img = new Image();
         img.onload = function() {
-            const logoSize = 200;  // Tamaño del logo
+            const logoSize = 150;  // Tamaño del logo
             const x = (canvas.width / 2) - (logoSize / 2);
             const y = (canvas.height / 2) - (logoSize / 2);
             ctx.drawImage(img, x, y, logoSize, logoSize); // Dibuja el logo
