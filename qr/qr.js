@@ -1,4 +1,4 @@
-const url = "https://www.youtube.com/watch?v=zzSgzO1E6l8"; // URL del código QR
+const url = "https://laprefe.netlify.app/"; // URL del código QR
 const logo = "https://i.ibb.co/0mRXFVv/logo.png"; // Ruta de tu logo
 
 // Genera el código QR con colores personalizados
