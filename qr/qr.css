@@ -1,0 +1,17 @@
+#qrcode {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+}
+#qrcode img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px; /* Ajusta el tamaño del logo */
+    height: 50px;
+    transform: translate(-50%, -50%);
+}
+h2 {
+    
+}
